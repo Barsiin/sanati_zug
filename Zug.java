@@ -78,7 +78,7 @@ public class Zug
     }
     else
     {
-        System.out.println("Fehler: das wagen muss zwischen 10 und 2000 sein!");
+        System.out.println("Fehler: das wagen muss zwischen 1 und 30 sein!");
         this.wagen=1;
     }
 }

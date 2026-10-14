@@ -70,5 +70,16 @@ public class Zug
        klimatisiert = neuKlimatisiert;
    }
    
-   
+   public void setSitzplatz(int sitzplatz )
+{
+    if ((wagen>=1) && (wagen<30))
+    {
+        this.wagen = wagen;
+    }
+    else
+    {
+        System.out.println("Fehler: das wagen muss zwischen 10 und 2000 sein!");
+        this.wagen=1;
+    }
+}
 }
